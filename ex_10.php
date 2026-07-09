@@ -23,7 +23,7 @@ function calcularMedia($notas) {
     return [
         'maiorNota' => $maiorNota,
         'menorNota' => $menorNota,
-        'media' => round($media, 2), // Arredonda para 2 casas decimais
+        'media' => round($media, 2), 
         'situacao' => $situacao
     ];
 }
